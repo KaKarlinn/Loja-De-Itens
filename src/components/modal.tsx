@@ -4,7 +4,6 @@ interface ModalProps {
 }
 
 function Modal({ close, itemInicial }: ModalProps) {
-  console.log(itemInicial);
   return (
     <div className="backgroundModal" onClick={close}>
       <div className="divModalCentral" onClick={(e) => e.stopPropagation()}>
