@@ -1,7 +1,7 @@
 # Projeto: Loja De Skins
 
 # Descrição do Projeto
-O projeto "Loja De Skins" é uma exibição detalhada de alguns itens do jogo League Of Legends. A loja de itens será apresentada em um formato digital, onde cada item será acompanhado de uma descrição visual e uma descrição única que capture a essência e a precisão por trás de cada um.
+O projeto "Loja De Skins" é uma exibição detalhada de alguns itens do jogo League Of Legends. A loja de itens será apresentada em um formato digital, onde cada item será acompanhado de uma descrição visual e única que capture a essência e a precisão por trás de cada um.
 
 # Objetivos
 Exibir os itens: Mostrar imagens de alta qualidade de cada item, destacando os detalhes,atributos e características únicas de cada um.
