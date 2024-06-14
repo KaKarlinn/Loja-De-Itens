@@ -10,7 +10,7 @@ Interatividade: Criar uma interface interativa onde os usuários possam conhecer
 ## Tecnologias Utilizadas
 
 #### :link: [React](https://reactjs.org/docs/getting-started.html)
-#### :link: [TypeScript]([https://swiperjs.com/get-started](https://www.typescriptlang.org/)) 
+#### :link: [TypeScript](https://www.typescriptlang.org/)
 
 ## Baixando o projeto
 
