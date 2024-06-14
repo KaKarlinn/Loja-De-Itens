@@ -28,17 +28,12 @@ img {
   align-self: center;
 }
 
-.divModal {
-  color: rgb(200, 217, 231);
-  text-align: center;
-  padding: 2px;
-}
-
 .button {
   background-color: rgba(0, 255, 255, 0.466);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 5px;
   padding: 20px;
+  border: none;
 }
 
 .buttonFechaModal {
@@ -62,6 +57,12 @@ img {
   justify-content: center;
 }
 
+.divModal {
+  color: rgb(200, 217, 231);
+  text-align: center;
+  padding: 2px;
+}
+
 .divModalCentral {
   display: flex;
   align-items: center;
@@ -76,6 +77,24 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 625px) {
+  .divModalCentral {
+    width: 400px;
+  }
+  .divModal{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 444px) {
+  .divModalCentral {
+    width: 300px;
+  }
+  .divModal{
+    font-size: 12px;
+  }
 }
 
 .cardStyle {
@@ -93,6 +112,8 @@ img {
   padding: 10px;
   padding-bottom: 20px;
   border-radius: 8px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   border: solid 1px rgba(156, 156, 133, 0.719);
   text-align: center;
 }
